@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="marksheet">
+        <h1 id="heading">
+            MARKSHEET
+        </h1>
+
+        <label id="name">Name od Student:</label>
+        <input type="text" id="name" >
+        <br>
+        <br>
+        <div class="sub-marks">
+        <div class="box">
+            <label for="">
+            Maths</label>
+            <input type="text" name="txt1" id="txt1" value="23"></div>
+        <div class="box">
+            <label for="">Physics</label>
+            <input type="text" name="txt2" id="txt2" value="23"></div>
+        <div class="box">
+            <label for="">Biology</label>
+            <input type="text" name="txt3" id="txt3" value="12"></div>
+        <div class="box">
+            <label for="">Chemistry</label>
+            <input type="text" name="txt4" id="txt4" value="19"></div>
+        <div class="box">
+            <label for="">Social Science</label>
+            <input type="text" name="txt5" id="txt5" value="21"></div>
+        <div class="box">
+            <label for="">History</label>
+            <input type="text" name="txt6" id="txt6" value="14"></div>
+        <div class="box">
+            <label for="">Geography</label>
+            <input type="text" name="txt7" id="txt7" value="22"></div>
+        <div class="box">
+            <label for="">Danish</label>
+            <input type="text" name="txt8" id="txt8" value="24"></div>
+        <div class="box">
+            <label for="">English</label>
+            <input type="text" name="txt9" id="txt9" value="18"></div>
+        </div>
+        <br>
+
+    <div class="c-marks">
+            <button onclick="btn1Click()" class="btn" name="btn1" type="button">Compliled Marks</button>
+        
+        <div class="box">
+            Maths: <label id="lblmaths"></label>
+            <br>
+            <br>
+            Science: <label id="lblss"></label>
+            <br>
+            <br>
+            Language: <label id="lbllang"></label>
+            <br>
+            <br>
+            Misc.: <label id="lblmisc"></label>
+            
+        </div>
+    </div>
+    <br>
+    <div class="gtotal">
+    <button onclick="btn2Click()" class="btn" name="btn2" type="button">Grand Total</button>
+   <br>
+    
+   <label id="lblgtotal"></label>
+    </div>   
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
